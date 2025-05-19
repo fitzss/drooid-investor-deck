@@ -70,38 +70,18 @@ Timing is perfect for field-ready swarms.
 ## 5.1 | Biomimetic Swarm Designs
 ### Field-Ready Forms Inspired by Nature
 
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="max-width: 90%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
-<br><small>Aerial reconnaissance prototype – inspired by dragonflies</small>
-</td>
-<td width="50%" align="center">
-<img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="max-width: 90%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
-<br><small>Aquatic scout concept – bio-modeled after a seal/fish</small>
-</td>
-</tr>
-</table>
-
-**Why This Matters:**
 - Bioinspired forms allow stealth, agility, and mission adaptability.
 - Each unit is task-specific: fly, crawl, swim.
 - Compact, field-deployable, and fit in backpack kits for real-world missions.
 - Feasible today — prototyping can begin now with COTS parts and rapid fabrication.
 
-<div style="position: absolute; bottom: 1em; right: 2em; font-size: 0.9em; opacity: 0.7;">
 "These designs are not theoretical art — they are reference points for real, buildable nano-robotic swarms."
-</div>
 
 ---
 
-## 5.2 | Mission Profiles – What These Swarms Can Actually Do
+## 5.2 | Dragonfly-Class (Aerial Recon Drone)
+<img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="max-width: 60%; border-radius: 12px; box-shadow: 0 2px 8px #0002; display: block; margin: 0 auto 1em auto;" />
 
-Each of these prototypes is task-specific and fits into real-world mission environments. Here's how:
-
----
-
-### 🪰 Dragonfly-Class (Aerial Recon Drone)
 **Use Cases:**
 - Indoor or outdoor search-and-rescue
 - Gas leak scouting
@@ -119,7 +99,9 @@ Each of these prototypes is task-specific and fits into real-world mission envir
 
 ---
 
-### 🐟 Fish-Class (Aquatic Recon Drone)
+## 5.3 | Fish-Class (Aquatic Recon Drone)
+<img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="max-width: 60%; border-radius: 12px; box-shadow: 0 2px 8px #0002; display: block; margin: 0 auto 1em auto;" />
+
 **Use Cases:**
 - Flooded tunnel inspection
 - Urban storm drain mapping
@@ -136,7 +118,9 @@ Each of these prototypes is task-specific and fits into real-world mission envir
 
 ---
 
-### 🔴 Orb-Class (Communication/Rescue Ball Drone)
+## 5.4 | Orb-Class (Communication/Rescue Ball Drone)
+<img src="orb-prototype.jpg.jpeg" alt="Orb-class communication disaster response ball" style="max-width: 40%; border-radius: 12px; box-shadow: 0 2px 8px #0002; display: block; margin: 0 auto 1em auto;" />
+
 **Use Cases:**
 - Two-way communication with trapped victims
 - Swarm node or repeater for underground swarms
@@ -152,7 +136,7 @@ Each of these prototypes is task-specific and fits into real-world mission envir
 
 ---
 
-**Why This Matters**
+## 5.5 | Why This Matters
 - Each class does one job well.
 - They operate in dangerous, unmapped, or GPS-denied zones.
 - Together, they form a swarm that can map, measure, and communicate across terrain types.
