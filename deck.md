@@ -70,69 +70,88 @@ Timing is perfect for field-ready swarms.
 ## 5.1 | Biomimetic Swarm Designs
 ### Field-Ready Forms Inspired by Nature
 
+"These designs are not theoretical art — they are reference points for real, buildable nano-robotic swarms."
+
 - Bioinspired forms allow stealth, agility, and mission adaptability.
 - Each unit is task-specific: fly, crawl, swim.
 - Compact, field-deployable, and fit in backpack kits for real-world missions.
 - Feasible today — prototyping can begin now with COTS parts and rapid fabrication.
 
-"These designs are not theoretical art — they are reference points for real, buildable nano-robotic swarms."
-
 ---
 
 ## 5.2 | Dragonfly-Class (Aerial Recon Drone)
-<img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="max-width: 60%; border-radius: 12px; box-shadow: 0 2px 8px #0002; display: block; margin: 0 auto 1em auto;" />
-
-**Use Cases:**
-- Indoor or outdoor search-and-rescue
-- Gas leak scouting
-- Rooftop or tunnel ventilation analysis
-- Infrastructure inspection (bridges, fire zones, under-roof)
-
-**Mission Features:**
-- Vertical Takeoff (VTOL) for tight spots
-- Stable hover for high-res imaging
-- Forward flight for perimeter sweeps
-- Ducted fans for safety in indoor/confined spaces
-
-**Example Mission:**
-> "Map an unstable, GPS-denied building after an earthquake to find safe entry points and gas concentrations."
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+  <img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="max-width: 220px; min-width: 120px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin: 0 2em 0 0;" />
+  <div>
+    <strong>Use Cases:</strong>
+    <ul>
+      <li>Indoor or outdoor search-and-rescue</li>
+      <li>Gas leak scouting</li>
+      <li>Rooftop or tunnel ventilation analysis</li>
+      <li>Infrastructure inspection (bridges, fire zones, under-roof)</li>
+    </ul>
+    <strong>Mission Features:</strong>
+    <ul>
+      <li>Vertical Takeoff (VTOL) for tight spots</li>
+      <li>Stable hover for high-res imaging</li>
+      <li>Forward flight for perimeter sweeps</li>
+      <li>Ducted fans for safety in indoor/confined spaces</li>
+    </ul>
+    <strong>Example Mission:</strong>
+    <blockquote>Map an unstable, GPS-denied building after an earthquake to find safe entry points and gas concentrations.</blockquote>
+    <em>Wings and body are designed for maximum lift and maneuverability in cluttered environments.</em>
+  </div>
+</div>
 
 ---
 
 ## 5.3 | Fish-Class (Aquatic Recon Drone)
-<img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="max-width: 60%; border-radius: 12px; box-shadow: 0 2px 8px #0002; display: block; margin: 0 auto 1em auto;" />
-
-**Use Cases:**
-- Flooded tunnel inspection
-- Urban storm drain mapping
-- Nuclear cooling pool or marine site monitoring
-- Environmental water testing
-
-**Mission Features:**
-- Silent aquatic motion using biomimetic flippers
-- Sensor payloads for salinity, turbidity, pressure
-- Can relay data back via surface drones or swarm beacons
-
-**Example Mission:**
-> "Swim through a collapsed sewer line to detect chemical spills and structural damage."
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+  <img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="max-width: 180px; min-width: 100px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin: 0 2em 0 0;" />
+  <div>
+    <strong>Use Cases:</strong>
+    <ul>
+      <li>Flooded tunnel inspection</li>
+      <li>Urban storm drain mapping</li>
+      <li>Nuclear cooling pool or marine site monitoring</li>
+      <li>Environmental water testing</li>
+    </ul>
+    <strong>Mission Features:</strong>
+    <ul>
+      <li>Silent aquatic motion using biomimetic flippers</li>
+      <li>Sensor payloads for salinity, turbidity, pressure</li>
+      <li>Can relay data back via surface drones or swarm beacons</li>
+    </ul>
+    <strong>Example Mission:</strong>
+    <blockquote>Swim through a collapsed sewer line to detect chemical spills and structural damage.</blockquote>
+    <em>Streamlined for low drag and equipped for tight underwater navigation.</em>
+  </div>
+</div>
 
 ---
 
 ## 5.4 | Orb-Class (Communication/Rescue Ball Drone)
-<img src="orb-prototype.jpg.jpeg" alt="Orb-class communication disaster response ball" style="max-width: 40%; border-radius: 12px; box-shadow: 0 2px 8px #0002; display: block; margin: 0 auto 1em auto;" />
-
-**Use Cases:**
-- Two-way communication with trapped victims
-- Swarm node or repeater for underground swarms
-- Deployed in disaster rubble by rolling or air-drop
-
-**Mission Features:**
-- Loudspeaker + mic for emergency teams
-- Flashlight beacon for visibility
-- Ruggedized outer shell for chaotic debris fields
-
-**Example Mission:**
-> "Drop into a collapsed mine shaft to establish comms with trapped workers and light the interior."
+<div style="display: flex; align-items: flex-start; gap: 2em;">
+  <img src="orb-prototype.jpg.jpeg" alt="Orb-class communication disaster response ball" style="max-width: 120px; min-width: 80px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin: 0 2em 0 0;" />
+  <div>
+    <strong>Use Cases:</strong>
+    <ul>
+      <li>Two-way communication with trapped victims</li>
+      <li>Swarm node or repeater for underground swarms</li>
+      <li>Deployed in disaster rubble by rolling or air-drop</li>
+    </ul>
+    <strong>Mission Features:</strong>
+    <ul>
+      <li>Loudspeaker + mic for emergency teams</li>
+      <li>Flashlight beacon for visibility</li>
+      <li>Ruggedized outer shell for chaotic debris fields</li>
+      <li>150 ft voice range, hands-free operation for victims</li>
+    </ul>
+    <strong>Example Mission:</strong>
+    <blockquote>Drop into a collapsed mine shaft to establish comms with trapped workers and light the interior.</blockquote>
+    <em>Designed for maximum durability and clear audio in harsh environments.</em>
+  </div>
+</div>
 
 ---
 
