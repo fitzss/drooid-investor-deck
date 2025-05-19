@@ -95,6 +95,70 @@ Timing is perfect for field-ready swarms.
 
 ---
 
+## 5.2 | Mission Profiles – What These Swarms Can Actually Do
+
+Each of these prototypes is task-specific and fits into real-world mission environments. Here's how:
+
+---
+
+### 🪰 Dragonfly-Class (Aerial Recon Drone)
+**Use Cases:**
+- Indoor or outdoor search-and-rescue
+- Gas leak scouting
+- Rooftop or tunnel ventilation analysis
+- Infrastructure inspection (bridges, fire zones, under-roof)
+
+**Mission Features:**
+- Vertical Takeoff (VTOL) for tight spots
+- Stable hover for high-res imaging
+- Forward flight for perimeter sweeps
+- Ducted fans for safety in indoor/confined spaces
+
+**Example Mission:**
+> "Map an unstable, GPS-denied building after an earthquake to find safe entry points and gas concentrations."
+
+---
+
+### 🐟 Fish-Class (Aquatic Recon Drone)
+**Use Cases:**
+- Flooded tunnel inspection
+- Urban storm drain mapping
+- Nuclear cooling pool or marine site monitoring
+- Environmental water testing
+
+**Mission Features:**
+- Silent aquatic motion using biomimetic flippers
+- Sensor payloads for salinity, turbidity, pressure
+- Can relay data back via surface drones or swarm beacons
+
+**Example Mission:**
+> "Swim through a collapsed sewer line to detect chemical spills and structural damage."
+
+---
+
+### 🔴 Orb-Class (Communication/Rescue Ball Drone)
+**Use Cases:**
+- Two-way communication with trapped victims
+- Swarm node or repeater for underground swarms
+- Deployed in disaster rubble by rolling or air-drop
+
+**Mission Features:**
+- Loudspeaker + mic for emergency teams
+- Flashlight beacon for visibility
+- Ruggedized outer shell for chaotic debris fields
+
+**Example Mission:**
+> "Drop into a collapsed mine shaft to establish comms with trapped workers and light the interior."
+
+---
+
+**Why This Matters**
+- Each class does one job well.
+- They operate in dangerous, unmapped, or GPS-denied zones.
+- Together, they form a swarm that can map, measure, and communicate across terrain types.
+
+---
+
 ## 6  |  Unique Edge  
 Most robotics platforms rely on statistical guesswork. Drooid is vertically integrated from physical limits up:
 
