@@ -67,6 +67,34 @@ Timing is perfect for field-ready swarms.
 
 ---
 
+## 5.1 | Biomimetic Swarm Designs
+### Field-Ready Forms Inspired by Nature
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="max-width: 90%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
+<br><small>Aerial reconnaissance prototype – inspired by dragonflies</small>
+</td>
+<td width="50%" align="center">
+<img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="max-width: 90%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
+<br><small>Aquatic scout concept – bio-modeled after a seal/fish</small>
+</td>
+</tr>
+</table>
+
+**Why This Matters:**
+- Bioinspired forms allow stealth, agility, and mission adaptability.
+- Each unit is task-specific: fly, crawl, swim.
+- Compact, field-deployable, and fit in backpack kits for real-world missions.
+- Feasible today — prototyping can begin now with COTS parts and rapid fabrication.
+
+<div style="position: absolute; bottom: 1em; right: 2em; font-size: 0.9em; opacity: 0.7;">
+"These designs are not theoretical art — they are reference points for real, buildable nano-robotic swarms."
+</div>
+
+---
+
 ## 6  |  Unique Edge  
 Most robotics platforms rely on statistical guesswork. Drooid is vertically integrated from physical limits up:
 
