@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Marp Presentation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@marp-team/marp-core/themes/default.css">
+    <link rel="stylesheet" href="marp-theme.css">
+    <script src="https://cdn.jsdelivr.net/npm/@marp-team/marp-core/browser.js"></script>
+</head>
+<body>
+    <div id="presentation"></div>
+    <script>
+        const deck = new Marp({
+            container: '#presentation',
+            markdown: {
+                html: true
+            }
+        });
+        
+        fetch('deck.md')
+            .then(response => response.text())
+            .then(markdown => {
+                deck.render(markdown);
+            });
+    </script>
+</body>
+</html> 
