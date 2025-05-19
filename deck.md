@@ -24,81 +24,157 @@ style: |
 -->
 
 <!-- _class: lead -->
-# Drooid Swarm  
-### Modular nanodrone swarms for impossible jobs  
-**Fitz Doud** · Daniel Kalu  
-May 2025
+# Drooid Swarm – modular nanodrone swarms for impossible jobs  
+Fitz Doud · daniel@drooid.ai · May 2025  
 
 ---
 
-## The Challenge
+## 2  |  Problem  
+**Real-world tasks nobody can do safely or cheaply today:**  
+- Too dangerous: collapsed buildings, toxic gas sites  
+- Too remote: tight caves, flooded tunnels, underwater pipework  
+- Too complex: GPS-denied, dynamic, or unmapped geometry  
 
-- **Too dangerous:** collapsed buildings, toxic gas leaks  
-- **Too remote:** flooded tunnels, underwater pipework  
-- **Too complex:** GPS‑denied, dynamic, or unmapped geometry  
+Current robots are too big, brittle, and single-purpose. First responders and field scientists still rely on humans in harm's way.
 
-> Current robots are big, brittle, single‑purpose.  
-> First responders still put humans in harm's way.
-
----
-
-## Our Solution
-
-| Component | What it does | Key Innovation |
-|-----------|--------------|----------------|
-| Swarm bots | Fly · crawl · swim, palm‑size | Multi-modal locomotion |
-| AI‑to‑Print | GPT‑CAD → 3‑D print in 72h | Rapid prototyping |
-| Feasibility engine | Filters impossible tasks | AI-powered validation |
-| Hive Box | Edge compute & comms hub | Distributed intelligence |
-| Book of Nature | Learns what works where | Adaptive learning |
+Swarm systems provide resilience: if one bot fails, others can complete the mission. Centralized designs don't offer that.  
 
 ---
 
-## Use of Funds – $500k SAFE Raise
-
-```mermaid
-pie
-  title Use of Funds
-  "Builder Stipends" : 120
-  "Prototyping" : 100
-  "Field Testing" : 60
-  "Strategic Hires" : 40
-  "Travel & Demo" : 40
-  "Legal & Ops" : 20
-  "Buffer" : 120
-```
-
-> **This is not a $500k pitch to finish an idea.  
-> It's a $500k sprint to prove a new class of robotics is ready for the field, and ready for scale.**
+## 3  |  Solution  
+**Swarms of palm-size drones & crawlers that team up like insects**  
+- Fly · Crawl · Swim units mix & match per mission  
+- Rapid AI-to-Print pipeline → new design in days, not months  
+- Physics-checked missions = higher success, lower loss rate  
 
 ---
 
-## Timeline & Milestones
+## 4  |  Why Now  
+- Battery energy density ↑ 2× in 8 years  
+- On-device AI chips < $100  
+- Newlab Michigan Central gives us $500k of prototyping gear for $0 cap-ex  
 
-```mermaid
-gantt
-  title 12‑Month Sprint
-  dateFormat  YYYY-MM
-  section Prototype
-  Single‑bot hover          :a1, 2025-06, 1m
-  3‑bot indoor mapping demo :a2, after a1, 2m
-  Paid Detroit FD pilot     :a3, after a2, 2m
-  Outdoor SAR field test    :a4, after a3, 3m
-  section Validation
-  Safety certification      :b1, after a2, 1m
-  Performance metrics       :b2, after a3, 2m
-  Customer feedback         :b3, after a4, 1m
-```
+Timing is perfect for field-ready swarms.  
 
 ---
 
-## The Ask
+## 5  |  Tech Stack (Core Components)  
+- **Swarm Hardware Prototypes** – lightweight, modular nano-bots  
+- **AI-to-Print Pipeline** – GPT-CAD → 3D print → bench in <72 h  
+- **Constructor-Theory Feasibility Engine** – filters impossible tasks  
+- **Hive Box** – backpack hub that offloads compute & comms  
+- **Book of Nature** – growing database of what tasks work where  
 
-**Raise:** $500k via post‑money SAFE @ $6M cap  
-**Runway:** 12–15 months  
-**Target:** 10‑bot field demo + paid pilot
+---
 
-_Let's build the swarm that keeps people out of danger._
+## 6  |  Unique Edge  
+Most robotics platforms run on best guesses.  
+**Drooid is grounded in physics.**
+
+- No blind trial-and-error—we simulate and filter tasks first.  
+- Our Constructor-Theoretic engine explains which tasks are possible and why.  
+- That means:  
+  - Fewer failures  
+  - Safer deployment  
+  - Faster results  
+  - Clearer ROI
+
+---
+
+## 6.1 | Vertical Integration Advantage  
+"Vertical integration is an under-explored modality of technological progress." — Peter Thiel
+
+- **Drooid owns the full stack**: hardware, AI design, feasibility OS, and swarm data.  
+- **Atoms + Bits under one roof** at Newlab: design, print, test, and deploy in a single loop.  
+- **No middle layers**: Hive Box and Book of Nature keep intelligence local.  
+- **Hard to copy**: our vertically integrated pipeline is like a Tesla gigafactory for swarm robotics.
+
+---
+
+## 6.2 | Project-First Philosophy  
+"Let it be a project before it's a company." — Sam Altman
+
+- This is not a $500k pitch to finish an idea.
+- It's a $500k sprint to prove a new class of robotics is real, field-ready, and scalable.
+
+### Pre-seed = Proof of Feasibility
+- Fund 3-bot swarm demo + cost curve BOM
+- Validate physics, unit economics, and demand before scale
+- Spin into full product company only after technical signal is clear
+
+**Investors aren't buying hype. They're backing the search for scalable reality.**
+
+---
+
+## 7  |  Business Model  
+**Hardware + "Swarm-as-a-Service"**  
+- Starter kit (10 bots + Hive Box): $25k COGS $8k  
+- Software & maintenance: $1k / mo / swarm  
+- Beachhead = fire & rescue → expand to mining, energy, env-monitoring  
+
+---
+
+## 8  |  Roadmap & Milestones  
+| Month | Milestone                        | Risk Burned                   |
+|-------|----------------------------------|-------------------------------|
+| 3     | Single-bot lift & hover          | Air-frame + control proof     |
+| 6     | 3-bot indoor mapping demo        | Swarm comms                   |
+| 9     | Paid pilot with Detroit FD       | Market demand                 |
+| 12    | 10-bot outdoor SAR field test    | Scalability                   |
+
+---
+
+## 9  |  Use of Funds  
+**Ask: $500k SAFE, post-money cap $6M**  
+
+| Category                       | Amount | Purpose                                                          |
+|-------------------------------|--------|------------------------------------------------------------------|
+| Builder Stipends (4 builders) | $120k  | $2.5k/month avg to live and build full-time                     |
+| Prototyping + BOM Materials   | $100k  | Covers parts for ~20 swarm bots, sensors, Hive Box rebuilds     |
+| Field Testing + Pilot Support | $60k   | Permits, insurance, facilities, field logistics                  |
+| Strategic Hires               | $40k   | Short-term CAD, AI, or swarm contractors                        |
+| Travel + Demo Missions        | $40k   | VC meetings, pilot site visits, government demos                 |
+| Legal & Ops                   | $20k   | SAFE paperwork, IP, incorporation                               |
+| Runway Buffer                 | $120k  | 5–6 month buffer in case grants delayed                        |
+
+**This is not a $500k pitch to finish an idea.**  
+**It's a $500k sprint to prove a new class of robotics is ready for the field—and ready for scale.**
+
+---
+
+## 10 | Leverage Non-Dilutive Cash  
+- NSF SBIR Phase I: $275k (submitted)  
+- AFWERX Tactical Funding: $75k (LOI in draft)  
+- Michigan SPARK Prototype Grant: $100k match  
+
+Grants stretch investor money +9 months.  
+
+---
+
+## 11 | Team & Newlab Advantage  
+- Fitz Doud – robotics platform engineer, ex-open-source maintainer  
+- Daniel Kalu – AI/ML + swarm control PhD (U-Mich)  
+- Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
+
+---
+
+## 11.5 | Early-Investor Value Proposition (June 1 kickoff)  
+**Your job-to-be-done as a pre-prototype investor:**
+
+- **De-risk core physics + manufacturing loop** — fund the sprint that proves 3-bot swarm can go design-to-flight in <30 days  
+- **Secure seat in complex monopoly** — vertical stack = long-term moat  
+- **Shape the platform** — direct input into BOM, vendors, and first use case  
+- **Price advantage** — $6M cap SAFE now vs $15M cap post-revenue  
+
+**Milestone your check enables by Aug 31:**  
+10-minute autonomous gas-mapping demo with 3 nano-drones in Detroit FD tower.
+
+---
+
+## 12 | The Ask  
+Invest $500k via SAFE @ $6M cap  
+Funding gets us to swarm demo + paid pilot inside 12 months.  
+**Let's build the swarm that keeps people out of danger.**
 
 <!-- _class: lead -->
 ## Thank You
