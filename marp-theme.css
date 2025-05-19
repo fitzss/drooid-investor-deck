@@ -1,8 +1,96 @@
+/* Drooid custom theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* Drooid custom theme (optional) */
+:root {
+  --primary-color: #0b5fff;
+  --secondary-color: #2d3748;
+  --accent-color: #48bb78;
+  --background-color: #ffffff;
+  --text-color: #1a202c;
+}
+
 section {
   font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 2em;
 }
+
 h1 {
-  color: #0b5fff;
+  color: var(--primary-color);
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+p, li {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+strong {
+  color: var(--primary-color);
+}
+
+blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th, td {
+  border: 1px solid #e2e8f0;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+  background-color: #f8fafc;
+  padding: 1em;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+/* Progress bar for timeline */
+section[data-marpit-pagination]::after {
+  background-color: var(--primary-color);
+}
+
+/* Footer styling */
+footer {
+  color: var(--secondary-color);
+  font-size: 0.9em;
+  opacity: 0.8;
 }

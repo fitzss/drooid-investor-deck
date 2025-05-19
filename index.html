@@ -2,13 +2,97 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Marp Presentation</title>
+    <title>Drooid Swarm - Modular nanodrone swarms for impossible jobs</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@marp-team/marp-core/themes/default.css">
     <link rel="stylesheet" href="marp-theme.css">
     <script src="https://cdn.jsdelivr.net/npm/@marp-team/marp-core/browser.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #presentation {
+            width: 100vw;
+            height: 100vh;
+        }
+        .controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .controls button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            margin: 0 5px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+        .controls button:hover {
+            background: var(--secondary-color);
+        }
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+            z-index: 1000;
+        }
+        .help-overlay {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            z-index: 2000;
+            display: none;
+        }
+        .help-overlay.visible {
+            display: block;
+        }
+        .help-overlay h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+        .help-overlay kbd {
+            background: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
+    <div class="progress-bar"></div>
     <div id="presentation"></div>
+    <div class="controls">
+        <button onclick="prevSlide()">←</button>
+        <button onclick="nextSlide()">→</button>
+        <button onclick="toggleHelp()">?</button>
+    </div>
+    <div class="help-overlay">
+        <h3>Keyboard Shortcuts</h3>
+        <p><kbd>←</kbd> Previous slide</p>
+        <p><kbd>→</kbd> Next slide</p>
+        <p><kbd>?</kbd> Toggle this help</p>
+        <p><kbd>F</kbd> Fullscreen</p>
+        <p><kbd>Esc</kbd> Exit fullscreen/help</p>
+    </div>
+
     <script>
         const deck = new Marp({
             container: '#presentation',
@@ -17,11 +101,88 @@
             }
         });
         
+        let currentSlide = 0;
+        let totalSlides = 0;
+        const progressBar = document.querySelector('.progress-bar');
+        const helpOverlay = document.querySelector('.help-overlay');
+        
         fetch('deck.md')
             .then(response => response.text())
             .then(markdown => {
                 deck.render(markdown);
+                totalSlides = document.querySelectorAll('section').length;
+                updateProgress();
             });
+
+        function updateProgress() {
+            const progress = ((currentSlide + 1) / totalSlides) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                deck.slide(currentSlide);
+                updateProgress();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                deck.slide(currentSlide);
+                updateProgress();
+            }
+        }
+
+        function toggleHelp() {
+            helpOverlay.classList.toggle('visible');
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowRight':
+                    nextSlide();
+                    break;
+                case 'ArrowLeft':
+                    prevSlide();
+                    break;
+                case '?':
+                    toggleHelp();
+                    break;
+                case 'Escape':
+                    helpOverlay.classList.remove('visible');
+                    if (document.fullscreenElement) {
+                        document.exitFullscreen();
+                    }
+                    break;
+                case 'f':
+                    if (!document.fullscreenElement) {
+                        document.documentElement.requestFullscreen();
+                    }
+                    break;
+            }
+        });
+
+        // Touch navigation for mobile
+        let touchStartX = 0;
+        document.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+        });
+
+        document.addEventListener('touchend', (e) => {
+            const touchEndX = e.changedTouches[0].clientX;
+            const diff = touchStartX - touchEndX;
+            
+            if (Math.abs(diff) > 50) { // Minimum swipe distance
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+            }
+        });
     </script>
 </body>
 </html> 
