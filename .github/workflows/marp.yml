@@ -1,0 +1,27 @@
+
+name: Build Marp slides
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
+      - name: Convert deck to HTML
+        run: marp deck.md -o docs/index.html --html --theme marp-theme.css
+      - name: Convert deck to PDF
+        run: marp deck.md -o docs/drooid_swarm.pdf --pdf --theme marp-theme.css
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: slides
+          path: docs
