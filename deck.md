@@ -80,9 +80,9 @@ Timing is perfect for field-ready swarms.
 ---
 
 ## 5.2 | Dragonfly-Class (Aerial Recon Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-  <img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="max-width: 220px; min-width: 120px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin: 0 2em 0 0;" />
-  <div>
+<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
+  <img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="width: 50%; min-width: 180px; max-width: 350px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
+  <div style="flex: 1;">
     <strong>Use Cases:</strong>
     <ul>
       <li>Indoor or outdoor search-and-rescue</li>
@@ -106,9 +106,9 @@ Timing is perfect for field-ready swarms.
 ---
 
 ## 5.3 | Fish-Class (Aquatic Recon Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-  <img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="max-width: 180px; min-width: 100px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin: 0 2em 0 0;" />
-  <div>
+<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
+  <img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="width: 50%; min-width: 140px; max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
+  <div style="flex: 1;">
     <strong>Use Cases:</strong>
     <ul>
       <li>Flooded tunnel inspection</li>
@@ -131,9 +131,9 @@ Timing is perfect for field-ready swarms.
 ---
 
 ## 5.4 | Orb-Class (Communication/Rescue Ball Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em;">
-  <img src="orb-prototype.jpg.jpeg" alt="Orb-class communication disaster response ball" style="max-width: 120px; min-width: 80px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin: 0 2em 0 0;" />
-  <div>
+<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
+  <img src="orb-prototype.jpg.jpeg" alt="Orb-class communication disaster response ball" style="width: 45%; min-width: 100px; max-width: 220px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
+  <div style="flex: 1;">
     <strong>Use Cases:</strong>
     <ul>
       <li>Two-way communication with trapped victims</li>
