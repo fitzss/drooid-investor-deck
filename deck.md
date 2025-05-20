@@ -228,17 +228,7 @@ Each job anchors pricing, product specs, and go-to-market—keeping R&D and sale
 
 ---
 
-## 8  |  Roadmap & Milestones  
-| Month | Milestone                        | Risk Burned                   |
-|-------|----------------------------------|-------------------------------|
-| 3     | Single-bot lift & hover          | Air-frame + control proof     |
-| 6     | 3-bot indoor mapping demo        | Swarm comms                   |
-| 9     | Paid pilot with Detroit FD       | Market demand                 |
-| 12    | 10-bot outdoor SAR field test    | Scalability                   |
-
----
-
-## 8.1 | Six-Week Build Sprint Timeline (June–Mid July)
+## 8 | Six-Week Build Sprint Timeline (June–Mid July)
 
 Drooid will fabricate and deploy all core components of the swarm platform—hardware, software, feasibility logic, and coordination—in six weeks. This culminates in a working 5-bot mixed-environment demo.
 
@@ -256,9 +246,7 @@ Drooid will fabricate and deploy all core components of the swarm platform—har
 
 ---
 
-## 8.2 | Six-Week Sprint: Outcomes & Why This Works
-
-### Component Status by July 15
+## 8.1 | Component Status by July 15
 
 - **Swarm Hardware:** Three flyers, one crawler, one swimmer + spares
 - **AI-to-Print Pipeline:** Prompt → STL → print → assemble in under 48h
@@ -266,7 +254,9 @@ Drooid will fabricate and deploy all core components of the swarm platform—har
 - **Hive Box:** ROS 2 stack, swarm control, mission uplink, live telemetry dashboard
 - **Book of Nature v0.1:** Logs tasks, success/failure, sensor data, and feasibility deltas
 
-### Why This Works
+---
+
+## 8.2 | Why This Works
 
 - All hardware is COTS or printed locally at Newlab
 - Team is full-time on-site with direct access to drone cage, print labs, and field tank
