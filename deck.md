@@ -27,7 +27,7 @@ style: |
 # Drooid – modular nanodrone swarms for impossible jobs  
 Daniel Kalu and Fitz Doud · May 2025  
 
-<img src="drooidkid.jpg" alt="Drooid representing a kid in the forest, coordinating a swarm of micro-nano drones as he plays" style="display: block; margin: 2em auto 0 auto; max-width: 60%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
+<img src="drooidkid.jpg" alt="Drooid representing a kid in the forest, coordinating a swarm of micro-nano drones as he plays" style="display: block; margin: 2em auto 0 auto; max-width: 20%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
 
 ---
 
@@ -273,12 +273,6 @@ fitzdoud@gmail.com
 
 ---
 
-## Drooid Leadership
-
-<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 40%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
-
----
-
 ## 9  |  Use of Funds  
 **Ask: $500k SAFE, post-money cap $6M**  
 
@@ -330,3 +324,9 @@ Grants stretch investor money +9 months.
 Invest $500k via SAFE @ $6M cap  
 Funding gets us to swarm demo + paid pilot inside 12 months.  
 **Let's build the swarm that keeps people out of danger.**
+
+---
+
+## Drooid Leadership
+
+<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 20%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
