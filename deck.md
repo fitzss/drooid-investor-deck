@@ -263,9 +263,19 @@ Start raising seed and booking pilot partners in September.
 
 ---
 
+## Thank You
+
+**Contact:**  
+dankalu.work@gmail.com  
+fitzdoud@gmail.com
+
+**Join us in building the future of rescue robotics.**
+
+---
+
 ## Drooid Leadership
 
-<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 60%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
+<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 40%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
 
 ---
 
@@ -320,12 +330,3 @@ Grants stretch investor money +9 months.
 Invest $500k via SAFE @ $6M cap  
 Funding gets us to swarm demo + paid pilot inside 12 months.  
 **Let's build the swarm that keeps people out of danger.**
-
-<!-- _class: lead -->
-## Thank You
-
-**Contact:**  
-dankalu.work@gmail.com  
-fitzdoud@gmail.com
-
-**Join us in building the future of rescue robotics.**
