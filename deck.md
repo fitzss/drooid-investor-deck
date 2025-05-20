@@ -254,6 +254,10 @@ Drooid will fabricate and deploy all core components of the swarm platform—har
 | **5 (Jul 1–8)** | Build Fish-class prototype<br>Waterproof ESC trial | Medium-specific prompt rules | Dual-radio handoff test | Cross-medium test (air→water) |
 | **6 (Jul 9–15)** | Assemble full 5-bot kit | Constructor assigns swarm by job | Hive UI with live health monitor | Field demo w/ real-time map & task log |
 
+---
+
+## 8.2 | Six-Week Sprint: Outcomes & Why This Works
+
 ### Component Status by July 15
 
 - **Swarm Hardware:** Three flyers, one crawler, one swimmer + spares
