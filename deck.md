@@ -317,8 +317,8 @@ Funding gets us to swarm demo + paid pilot inside 12 months.
 ## Thank You
 
 Contact:
-dankalu.work@gmail.com
 fitzdoud@gmail.com
+dankalu.work@gmail.com
 
 Join us in building the future of rescue robotics.
 
