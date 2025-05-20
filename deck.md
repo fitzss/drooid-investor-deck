@@ -25,7 +25,7 @@ style: |
 
 <!-- _class: lead -->
 # Drooid Swarm – modular nanodrone swarms for impossible jobs  
-Fitz Doud · daniel@drooid.ai · May 2025  
+Daniel Kalu and Fitz Doud · May 2025  
 
 ---
 
@@ -248,7 +248,7 @@ Grants stretch investor money +9 months.
 
 ## 11 | Team & Newlab Advantage  
 - Fitz Doud – robotics platform engineer, ex-open-source maintainer  
-- Daniel Kalu – AI/ML + swarm control PhD (U-Mich)  
+- Daniel Kalu – CS grad from Minerva, AI/ML & swarm control  
 - Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
 
 ---
@@ -275,7 +275,7 @@ Funding gets us to swarm demo + paid pilot inside 12 months.
 ## Thank You
 
 **Contact:**  
-fitz@drooid.tech  
-daniel@drooid.tech
+dankalu.work@gmail.com  
+fitzdoud@gmail.com
 
 **Join us in building the future of rescue robotics.**
