@@ -232,34 +232,22 @@ Each job anchors pricing, product specs, and go-to-market—keeping R&D and sale
 
 We're building Drooid's first working swarm this summer. Hardware, AI, swarm logic, and control systems—everything built and tested by end of August.
 
-### Weekly Plan
+### Bi-Weekly Plan
 
-<div style="font-size: 0.7em; overflow-x: auto;">
-
-| Week          | Focus                               | Outcome                             |
+| Date Range    | Focus                               | Outcome                             |
 |---------------|--------------------------------------|--------------------------------------|
-| Prep (May 27) | Order parts, set up Jetson, ROS      | Tools ready, first test board boots  |
-| Jun 3         | Print first bots, test motors        | First bot runs on bench              |
-| Jun 10        | Build two bots, test swarm script    | Two bots hover, talk to Hive Box     |
-| Jun 17        | Finish 3-bot swarm, formation tests  | Drones fly in sync indoors           |
-| Jun 24        | Map a small room with swarm          | Room map from swarm complete         |
-| Jul 1         | Build fish drone, waterproof tests   | Fish bot swims and responds          |
-| Jul 8         | Combine air and water test           | Air-water handoff works              |
-| Jul 15        | Run full demo indoors                | One task completed start to finish   |
-| Jul 22        | Improve designs, prep for outdoor    | Outdoor test-ready swarm             |
-| Jul 29        | Outdoor hover + mapping              | Drones stable in outdoor test        |
-| Aug 5         | Add leak detection task              | Bots can find and signal leak        |
-| Aug 12        | Test longer missions                 | Logs show multi-minute uptime        |
-| Aug 19        | Final round of fixes and polish      | Stable version of swarm              |
-| Aug 26        | Demo + pitch prep                    | System ready for seed round          |
-
-</div>
-
----
+| May 27–Jun 2  | Order parts, set up Jetson + ROS     | Tools ready, test board boots        |
+| Jun 3–16      | Print first bots, build swarm base   | First bots fly, basic swarm script   |
+| Jun 17–30     | Finish 3-bot swarm, run formations   | Indoor swarm flight tested           |
+| Jul 1–14      | Build fish drone, test air-water     | Cross-medium handoff works           |
+| Jul 15–28     | Run full demo, prep for outdoor      | Mission runs start to finish         |
+| Jul 29–Aug 11 | Outdoor mapping + leak detection     | Swarm detects and logs field tasks   |
+| Aug 12–25     | Final fixes, polish swarm control    | Stable, reliable swarm system        |
+| Aug 26–31     | Demo + pitch prep                    | System ready for seed raise          |
 
 **Goal:**  
-5 working bots by August, with real missions completed and shown live.  
-Start raising seed and booking pilot partners in September.
+Have a 5-bot swarm system completing real-world tasks by end of August.  
+Use it to start seed fundraising and pilot outreach in September.
 
 ---
 
