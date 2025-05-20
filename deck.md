@@ -234,6 +234,8 @@ We're building Drooid's first working swarm this summer. Hardware, AI, swarm log
 
 ### Weekly Plan
 
+<div style="font-size: 0.85em; overflow-x: auto;">
+
 | Week          | Focus                               | Outcome                             |
 |---------------|--------------------------------------|--------------------------------------|
 | Prep (May 27) | Order parts, set up Jetson, ROS      | Tools ready, first test board boots  |
@@ -250,6 +252,8 @@ We're building Drooid's first working swarm this summer. Hardware, AI, swarm log
 | Aug 12        | Test longer missions                 | Logs show multi-minute uptime        |
 | Aug 19        | Final round of fixes and polish      | Stable version of swarm              |
 | Aug 26        | Demo + pitch prep                    | System ready for seed round          |
+
+</div>
 
 ---
 
