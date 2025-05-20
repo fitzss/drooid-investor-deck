@@ -211,6 +211,23 @@ This leads to: fewer crashes, faster iteration, and a clearer ROI for high-risk,
 
 ---
 
+## 7.1 | Market Focus—Jobs We Solve
+
+Instead of slicing the market by customer type, Drooid targets *critical jobs that no existing tool completes well.*
+
+| Job to Get Done                                   | Current Pain                                                         | Drooid Swarm Advantage                                                                      |
+|---------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Map a collapsed or smoke-filled structure in <5 min | Manual entry is lethal and slow; ground robots fail on rubble        | Air-hover nano-bots create a real-time 3-D map plus toxic-gas overlay in a single flight    |
+| Inspect a flooded tunnel without draining it      | Divers and ROVs are bulky, costly, risky                             | Fish-class swimmer navigates tight bends and streams HD video live                          |
+| Relay comms deep underground                      | Radio blackouts stall rescue operations                              | Orb-class relay bot forms an instant mesh network that follows the team                     |
+| Sense methane leaks across sprawling well pads    | Helicopters are expensive; fixed sensors miss moving plumes          | Dragonfly flyers sweep grids autonomously and cut per-acre cost by an order of magnitude    |
+
+**Why this matters**  
+When customers face these jobs, Drooid is the obvious hire: precise, fast, and safer than humans or legacy machines.  
+Each job anchors pricing, product specs, and go-to-market—keeping R&D and sales laser-aligned on real value.
+
+---
+
 ## 8  |  Roadmap & Milestones  
 | Month | Milestone                        | Risk Burned                   |
 |-------|----------------------------------|-------------------------------|
