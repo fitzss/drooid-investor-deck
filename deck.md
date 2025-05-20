@@ -267,6 +267,19 @@ Funding gets us to swarm demo + paid pilot inside 12 months.
 
 ---
 
+## 11.5 | Early-Investor Value Proposition (June 1 kickoff)  
+**Your job-to-be-done as a pre-prototype investor:**
+
+- **De-risk core physics + manufacturing loop** — fund the sprint that proves 3-bot swarm can go design-to-flight in <30 days  
+- **Secure seat in complex monopoly** — vertical stack = long-term moat  
+- **Shape the platform** — direct input into BOM, vendors, and first use case  
+- **Price advantage** — $6M cap SAFE now vs $15M cap post-revenue  
+
+**Milestone your check enables by Aug 31:**  
+10-minute autonomous gas-mapping demo with 3 nano-drones in Detroit FD tower.
+
+---
+
 ## Thank You
 
 Contact:
@@ -314,16 +327,3 @@ Grants stretch investor money +9 months.
 - Fitz Doud – robotics platform engineer, ex-open-source maintainer  
 - Daniel Kalu – CS grad from Minerva, AI/ML & swarm control  
 - Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
-
----
-
-## 11.5 | Early-Investor Value Proposition (June 1 kickoff)  
-**Your job-to-be-done as a pre-prototype investor:**
-
-- **De-risk core physics + manufacturing loop** — fund the sprint that proves 3-bot swarm can go design-to-flight in <30 days  
-- **Secure seat in complex monopoly** — vertical stack = long-term moat  
-- **Shape the platform** — direct input into BOM, vendors, and first use case  
-- **Price advantage** — $6M cap SAFE now vs $15M cap post-revenue  
-
-**Milestone your check enables by Aug 31:**  
-10-minute autonomous gas-mapping demo with 3 nano-drones in Detroit FD tower.
