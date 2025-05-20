@@ -272,7 +272,7 @@ Join us in building the future of rescue robotics.
 
 ## Drooid Leadership
 
-<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 20%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
+<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 25%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
 
 ---
 
