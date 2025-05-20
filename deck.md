@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-header: "Drooid Swarm · 2025"
+header: "Drooid · 2025"
 footer: "© 2025 Drooid Technologies"
 style: |
   section.lead {
@@ -24,7 +24,7 @@ style: |
 -->
 
 <!-- _class: lead -->
-# Drooid Swarm – modular nanodrone swarms for impossible jobs  
+# Drooid – modular nanodrone swarms for impossible jobs  
 Daniel Kalu and Fitz Doud · May 2025  
 
 ---
