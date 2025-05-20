@@ -234,7 +234,7 @@ We're building Drooid's first working swarm this summer. Hardware, AI, swarm log
 
 ### Weekly Plan
 
-<div style="font-size: 0.85em; overflow-x: auto;">
+<div style="font-size: 0.7em; overflow-x: auto;">
 
 | Week          | Focus                               | Outcome                             |
 |---------------|--------------------------------------|--------------------------------------|
