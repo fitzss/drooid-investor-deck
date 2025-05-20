@@ -238,6 +238,41 @@ Each job anchors pricing, product specs, and go-to-market—keeping R&D and sale
 
 ---
 
+## 8.1 | Six-Week Build Sprint Timeline (June–Mid July)
+
+Drooid will fabricate and deploy all core components of the swarm platform—hardware, software, feasibility logic, and coordination—in six weeks. This culminates in a working 5-bot mixed-environment demo.
+
+### Weekly Breakdown
+
+| Week | Swarm Hardware | AI-to-Print & Constructor | Hive Box & Comms | Exit Test |
+|------|----------------|----------------------------|------------------|------------|
+| **0 (Prep)** | Finalize CAD v0.2<br>Order motors, PCBs, LiPos | Finalize JSON schema for job ↔ part spec | Flash Jetson Orin Nano<br>Install ROS 2 | BOM ordered<br>Jetson builds firmware |
+| **1 (Jun 3–9)** | Print 3 airframes<br>Assemble test rig | Run GPT-CAD prompt<br>First constructor logic passes | Mesh ping: NRF24 ↔ MCU | Motors throttle<br>Hive Box connects |
+| **2 (Jun 10–16)** | Build two flight frames<br>Mount FCs & sensors | Print wing variation<br>Reject invalid payload task | Basic swarm script online | Indoor hover (30s) |
+| **3 (Jun 17–23)** | Complete 3-bot swarm<br>Add prop guards | Energy rule in constructor<br>Auto BOM delta gen | Formation script & latency check | 3-bot V-formation test |
+| **4 (Jun 24–30)** | Print spares<br>Battery mount iteration | Job: "Map 10×10 room" → config JSON | SLAM + task allocator online | Room mapping demo |
+| **5 (Jul 1–8)** | Build Fish-class prototype<br>Waterproof ESC trial | Medium-specific prompt rules | Dual-radio handoff test | Cross-medium test (air→water) |
+| **6 (Jul 9–15)** | Assemble full 5-bot kit | Constructor assigns swarm by job | Hive UI with live health monitor | Field demo w/ real-time map & task log |
+
+### Component Status by July 15
+
+- **Swarm Hardware:** Three flyers, one crawler, one swimmer + spares
+- **AI-to-Print Pipeline:** Prompt → STL → print → assemble in under 48h
+- **Constructor Engine:** Filters based on thrust, energy, environment; logs all rejections
+- **Hive Box:** ROS 2 stack, swarm control, mission uplink, live telemetry dashboard
+- **Book of Nature v0.1:** Logs tasks, success/failure, sensor data, and feasibility deltas
+
+### Why This Works
+
+- All hardware is COTS or printed locally at Newlab
+- Team is full-time on-site with direct access to drone cage, print labs, and field tank
+- First-flight milestone in Week 2 gives fast feedback on risk
+- Schedule supports an impressive, filmed field demo ahead of investor meetings
+
+**Goal:** Prove the full design-to-deploy loop of Drooid by July 15. Use this to secure pre-seed funding, pilot partners, and scaled batch plans.
+
+---
+
 ## 9  |  Use of Funds  
 **Ask: $500k SAFE, post-money cap $6M**  
 
