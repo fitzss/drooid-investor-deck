@@ -228,25 +228,34 @@ Each job anchors pricing, product specs, and go-to-market—keeping R&D and sale
 
 ---
 
-## 8 | Six-Week Build Sprint Timeline (June–Mid July)
+## 8 | Summer Build Plan (June–August)
 
-Drooid will fabricate and deploy all core components of the swarm platform—hardware, software, feasibility logic, and coordination—in six weeks. This culminates in a working 5-bot mixed-environment demo.
+We're building Drooid's first working swarm this summer. Hardware, AI, swarm logic, and control systems—everything built and tested by end of August.
 
-### Weekly Breakdown
+### Weekly Plan
 
-<div style="padding: 1.5em 2em;">
+| Week          | Focus                               | Outcome                             |
+|---------------|--------------------------------------|--------------------------------------|
+| Prep (May 27) | Order parts, set up Jetson, ROS      | Tools ready, first test board boots  |
+| Jun 3         | Print first bots, test motors        | First bot runs on bench              |
+| Jun 10        | Build two bots, test swarm script    | Two bots hover, talk to Hive Box     |
+| Jun 17        | Finish 3-bot swarm, formation tests  | Drones fly in sync indoors           |
+| Jun 24        | Map a small room with swarm          | Room map from swarm complete         |
+| Jul 1         | Build fish drone, waterproof tests   | Fish bot swims and responds          |
+| Jul 8         | Combine air and water test           | Air-water handoff works              |
+| Jul 15        | Run full demo indoors                | One task completed start to finish   |
+| Jul 22        | Improve designs, prep for outdoor    | Outdoor test-ready swarm             |
+| Jul 29        | Outdoor hover + mapping              | Drones stable in outdoor test        |
+| Aug 5         | Add leak detection task              | Bots can find and signal leak        |
+| Aug 12        | Test longer missions                 | Logs show multi-minute uptime        |
+| Aug 19        | Final round of fixes and polish      | Stable version of swarm              |
+| Aug 26        | Demo + pitch prep                    | System ready for seed round          |
 
-| Week | Swarm Hardware | AI-to-Print & Constructor | Hive Box & Comms | Exit Test |
-|------|----------------|----------------------------|------------------|------------|
-| **0 (Prep)** | Finalize CAD v0.2<br>Order motors, PCBs, LiPos | Finalize JSON schema for job ↔ part spec | Flash Jetson Orin Nano<br>Install ROS 2 | BOM ordered<br>Jetson builds firmware |
-| **1 (Jun 3–9)** | Print 3 airframes<br>Assemble test rig | Run GPT-CAD prompt<br>First constructor logic passes | Mesh ping: NRF24 ↔ MCU | Motors throttle<br>Hive Box connects |
-| **2 (Jun 10–16)** | Build two flight frames<br>Mount FCs & sensors | Print wing variation<br>Reject invalid payload task | Basic swarm script online | Indoor hover (30s) |
-| **3 (Jun 17–23)** | Complete 3-bot swarm<br>Add prop guards | Energy rule in constructor<br>Auto BOM delta gen | Formation script & latency check | 3-bot V-formation test |
-| **4 (Jun 24–30)** | Print spares<br>Battery mount iteration | Job: "Map 10×10 room" → config JSON | SLAM + task allocator online | Room mapping demo |
-| **5 (Jul 1–8)** | Build Fish-class prototype<br>Waterproof ESC trial | Medium-specific prompt rules | Dual-radio handoff test | Cross-medium test (air→water) |
-| **6 (Jul 9–15)** | Assemble full 5-bot kit | Constructor assigns swarm by job | Hive UI with live health monitor | Field demo w/ real-time map & task log |
+---
 
-</div>
+**Goal:**  
+5 working bots by August, with real missions completed and shown live.  
+Start raising seed and booking pilot partners in September.
 
 ---
 
