@@ -27,7 +27,7 @@ style: |
 # Drooid – modular nanodrone swarms for impossible jobs  
 Daniel Kalu and Fitz Doud · May 2025  
 
-<img src="drooidkid.jpeg" alt="Drooid representing a kid in the forest, coordinating a swarm of micro-nano drones as he plays" style="display: block; margin: 2em auto 0 auto; max-width: 60%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
+<img src="drooidkid.jpg" alt="Drooid representing a kid in the forest, coordinating a swarm of micro-nano drones as he plays" style="display: block; margin: 2em auto 0 auto; max-width: 60%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
 
 ---
 
