@@ -280,22 +280,6 @@ Funding gets us to swarm demo + paid pilot inside 12 months.
 
 ---
 
-## Thank You
-
-Contact:
-dankalu.work@gmail.com
-fitzdoud@gmail.com
-
-Join us in building the future of rescue robotics.
-
----
-
-## Drooid Leadership
-
-<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 25%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
-
----
-
 ## 9  |  Use of Funds  
 **Ask: $500k SAFE, post-money cap $6M**  
 
@@ -327,3 +311,19 @@ Grants stretch investor money +9 months.
 - Fitz Doud – robotics platform engineer, ex-open-source maintainer  
 - Daniel Kalu – CS grad from Minerva, AI/ML & swarm control  
 - Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
+
+---
+
+## Thank You
+
+Contact:
+dankalu.work@gmail.com
+fitzdoud@gmail.com
+
+Join us in building the future of rescue robotics.
+
+---
+
+## Drooid Leadership
+
+<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 25%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
