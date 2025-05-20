@@ -260,6 +260,13 @@ Use it to start seed fundraising and pilot outreach in September.
 
 ---
 
+## 12 | The Ask  
+Invest $500k via SAFE @ $6M cap  
+Funding gets us to swarm demo + paid pilot inside 12 months.  
+**Let's build the swarm that keeps people out of danger.**
+
+---
+
 ## Thank You
 
 Contact:
@@ -320,10 +327,3 @@ Grants stretch investor money +9 months.
 
 **Milestone your check enables by Aug 31:**  
 10-minute autonomous gas-mapping demo with 3 nano-drones in Detroit FD tower.
-
----
-
-## 12 | The Ask  
-Invest $500k via SAFE @ $6M cap  
-Funding gets us to swarm demo + paid pilot inside 12 months.  
-**Let's build the swarm that keeps people out of danger.**
