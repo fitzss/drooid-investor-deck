@@ -232,7 +232,7 @@ Each job anchors pricing, product specs, and go-to-market—keeping R&D and sale
 
 We're building Drooid's first working swarm this summer. Hardware, AI, swarm logic, and control systems—everything built and tested by end of August.
 
-### Bi-Weekly Plan
+### Bi-Weekly Plan (Part 1)
 
 | Date Range    | Focus                               | Outcome                             |
 |---------------|--------------------------------------|--------------------------------------|
@@ -240,6 +240,15 @@ We're building Drooid's first working swarm this summer. Hardware, AI, swarm log
 | Jun 3–16      | Print first bots, build swarm base   | First bots fly, basic swarm script   |
 | Jun 17–30     | Finish 3-bot swarm, run formations   | Indoor swarm flight tested           |
 | Jul 1–14      | Build fish drone, test air-water     | Cross-medium handoff works           |
+
+---
+
+## 8.1 | Summer Build Plan (June–August) (cont'd)
+
+### Bi-Weekly Plan (Part 2)
+
+| Date Range    | Focus                               | Outcome                             |
+|---------------|--------------------------------------|--------------------------------------|
 | Jul 15–28     | Run full demo, prep for outdoor      | Mission runs start to finish         |
 | Jul 29–Aug 11 | Outdoor mapping + leak detection     | Swarm detects and logs field tasks   |
 | Aug 12–25     | Final fixes, polish swarm control    | Stable, reliable swarm system        |
