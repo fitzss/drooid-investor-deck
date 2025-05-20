@@ -234,6 +234,8 @@ Drooid will fabricate and deploy all core components of the swarm platform—har
 
 ### Weekly Breakdown
 
+<div style="padding: 1.5em 2em;">
+
 | Week | Swarm Hardware | AI-to-Print & Constructor | Hive Box & Comms | Exit Test |
 |------|----------------|----------------------------|------------------|------------|
 | **0 (Prep)** | Finalize CAD v0.2<br>Order motors, PCBs, LiPos | Finalize JSON schema for job ↔ part spec | Flash Jetson Orin Nano<br>Install ROS 2 | BOM ordered<br>Jetson builds firmware |
@@ -244,26 +246,13 @@ Drooid will fabricate and deploy all core components of the swarm platform—har
 | **5 (Jul 1–8)** | Build Fish-class prototype<br>Waterproof ESC trial | Medium-specific prompt rules | Dual-radio handoff test | Cross-medium test (air→water) |
 | **6 (Jul 9–15)** | Assemble full 5-bot kit | Constructor assigns swarm by job | Hive UI with live health monitor | Field demo w/ real-time map & task log |
 
----
-
-## 8.1 | Component Status by July 15
-
-- **Swarm Hardware:** Three flyers, one crawler, one swimmer + spares
-- **AI-to-Print Pipeline:** Prompt → STL → print → assemble in under 48h
-- **Constructor Engine:** Filters based on thrust, energy, environment; logs all rejections
-- **Hive Box:** ROS 2 stack, swarm control, mission uplink, live telemetry dashboard
-- **Book of Nature v0.1:** Logs tasks, success/failure, sensor data, and feasibility deltas
+</div>
 
 ---
 
-## 8.2 | Why This Works
+## Drooid Leadership
 
-- All hardware is COTS or printed locally at Newlab
-- Team is full-time on-site with direct access to drone cage, print labs, and field tank
-- First-flight milestone in Week 2 gives fast feedback on risk
-- Schedule supports an impressive, filmed field demo ahead of investor meetings
-
-**Goal:** Prove the full design-to-deploy loop of Drooid by July 15. Use this to secure pre-seed funding, pilot partners, and scaled batch plans.
+<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 60%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
 
 ---
 
