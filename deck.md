@@ -107,7 +107,7 @@ Timing is perfect for field-ready swarms.
 
 ## 5.3 | Fish-Class (Aquatic Recon Drone)
 <div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
-  <img src="aquatic-prototype.jpg.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="width: 50%; min-width: 140px; max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
+  <img src="odessey.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="width: 50%; min-width: 140px; max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
   <div style="flex: 1;">
     <strong>Use Cases:</strong>
     <ul>
@@ -132,7 +132,10 @@ Timing is perfect for field-ready swarms.
 
 ## 5.4 | Orb-Class (Communication/Rescue Ball Drone)
 <div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
-  <img src="orb-prototype.jpg.jpeg" alt="Orb-class communication disaster response ball" style="width: 45%; min-width: 100px; max-width: 220px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
+  <div style="display: flex; flex-direction: column; gap: 1em; width: 45%; min-width: 200px; max-width: 300px;">
+    <img src="drooid-orb.jpeg" alt="Orb-class communication drone - front view" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
+    <img src="drooid0orb2.jpeg" alt="Orb-class communication drone - side view" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
+  </div>
   <div style="flex: 1;">
     <strong>Use Cases:</strong>
     <ul>
@@ -324,4 +327,4 @@ Join us in building the future of rescue robotics.
 
 ## Drooid Leadership
 
-<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 25%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
+<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 35%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
