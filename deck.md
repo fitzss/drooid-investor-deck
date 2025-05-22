@@ -131,12 +131,10 @@ Timing is perfect for field-ready swarms.
 ---
 
 ## 5.4 | Orb-Class (Communication/Rescue Ball Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
-  <div style="display: flex; flex-direction: column; gap: 1em; width: 45%; min-width: 200px; max-width: 300px;">
-    <img src="drooid-orb.jpeg" alt="Orb-class communication drone - front view" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
-    <img src="drooid-orb2.jpeg" alt="Orb-class communication drone - side view" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 8px #0002;" />
-  </div>
-  <div style="flex: 1;">
+<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em; position: relative;">
+  <img src="drooid-orb.jpeg" alt="Orb-class communication drone - front view" style="width: 45%; min-width: 180px; max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
+  <div style="flex: 1; position: relative;">
+    <img src="drooid-orb2.jpeg" alt="Orb-class communication drone - side view" style="position: absolute; top: 0; right: 0; width: 120px; max-width: 30%; border-radius: 12px; box-shadow: 0 2px 8px #0002; z-index: 2;" />
     <strong>Use Cases:</strong>
     <ul>
       <li>Two-way communication with trapped victims</li>
