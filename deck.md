@@ -320,8 +320,6 @@ Funding gets us to swarm demo + paid pilot inside 12 months.
 - Daniel Kalu – CS grad from Minerva, AI/ML & swarm control  
 - Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
 
----
-
 **Thank You**
 
 Contact:
