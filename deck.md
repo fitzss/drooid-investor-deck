@@ -303,7 +303,8 @@ These grants don't define our runway, but they help us move faster with less dil
 - **Shape the platform** — direct input into BOM, vendors, and first use case  
 - **Price advantage** — $6M cap SAFE now vs $15M cap post-revenue  
 
-**Milestone your check enables by Aug 31:**
+**Milestone your check enables by Aug 31:**  
+10-minute autonomous gas-mapping demo with 3 nano-drones in Detroit tower.
 
 ---
 
