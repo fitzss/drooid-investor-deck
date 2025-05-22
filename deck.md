@@ -281,16 +281,17 @@ Use it to start seed fundraising and pilot outreach in September.
 
 We're actively pursuing early-stage grant funding to extend investor runway and support local prototyping in Michigan.
 
-| Grant Program                       | Status            | Amount     | Purpose or Focus Area                                 |
-|------------------------------------|-------------------|------------|--------------------------------------------------------|
-| **𝑓(LUX) Fellowship**              | Submitted         | $15,000    | Physical science builder grant with mentorship         |
-| **Michigan AAM Activation Fund**   | Submitted         | Up to $4,500 | Aerial mobility and drone testing support in Michigan  |
-| **NSF SBIR Phase I**               | Not yet applied   | $275,000   | Feasibility and tech validation for deep-tech startups |
-| **AFWERX Tactical Funding**        | Not yet applied   | $75,000    | Government and dual-use applications                   |
-| **Michigan SPARK Prototype Grant** | Not yet applied   | $100,000   | Matching grant for prototyping and hardware iteration  |
+| Grant Program                       | Status            | Amount       | Purpose or Focus Area                                           |
+|------------------------------------|-------------------|--------------|------------------------------------------------------------------|
+| **𝑓(LUX) Fellowship**              | Submitted         | $15,000      | Physical science builder grant with mentorship                   |
+| **20Fathoms Small Business Grant** | Submitted         | $4,500       | Equipment or capacity-building support for Traverse region       |
+| **AAM Activation Fund (Michigan)** | Submitted         | $175,000     | Drone infrastructure, testing, and aerial mobility applications  |
+| **NSF SBIR Phase I**               | Not yet applied   | $275,000     | Feasibility and tech validation for deep-tech startups           |
+| **AFWERX Tactical Funding**        | Not yet applied   | $75,000      | Government and dual-use applications                            |
+| **Michigan SPARK Prototype Grant** | Not yet applied   | $100,000     | Matching grant for prototyping and hardware iteration            |
 
 **Summary**  
-We don't rely on grants, but we use them to reduce burn, extend our test runway, and de-risk investor capital.
+These grants don't define our runway, but they help us move faster with less dilution. Every dollar extends our testing capacity and accelerates outcomes for investors.
 
 ---
 
