@@ -277,12 +277,20 @@ Use it to start seed fundraising and pilot outreach in September.
 
 ---
 
-## 10 | Leverage Non-Dilutive Cash  
-- NSF SBIR Phase I: $275k (submitted)  
-- AFWERX Tactical Funding: $75k (LOI in draft)  
-- Michigan SPARK Prototype Grant: $100k match  
+## 10 | Non-Dilutive Grant Applications
 
-Grants stretch investor money +9 months.  
+We're actively pursuing early-stage grant funding to extend investor runway and support local prototyping in Michigan.
+
+| Grant Program                       | Status            | Amount     | Purpose or Focus Area                                 |
+|------------------------------------|-------------------|------------|--------------------------------------------------------|
+| **𝑓(LUX) Fellowship**              | Submitted         | $15,000    | Physical science builder grant with mentorship         |
+| **Michigan AAM Activation Fund**   | Submitted         | Up to $4,500 | Aerial mobility and drone testing support in Michigan  |
+| **NSF SBIR Phase I**               | Not yet applied   | $275,000   | Feasibility and tech validation for deep-tech startups |
+| **AFWERX Tactical Funding**        | Not yet applied   | $75,000    | Government and dual-use applications                   |
+| **Michigan SPARK Prototype Grant** | Not yet applied   | $100,000   | Matching grant for prototyping and hardware iteration  |
+
+**Summary**  
+We don't rely on grants, but we use them to reduce burn, extend our test runway, and de-risk investor capital.
 
 ---
 
