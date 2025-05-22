@@ -315,14 +315,14 @@ Funding gets us to swarm demo + paid pilot inside 12 months.
 
 ---
 
-## Team & Newlab Advantage  
+## Team & Newlab Advantage
 - Fitz Doud – robotics platform engineer, ex-open-source maintainer  
 - Daniel Kalu – CS grad from Minerva, AI/ML & swarm control  
 - Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
 
 ---
 
-## Thank You
+**Thank You**
 
 Contact:
 fitzdoud@gmail.com
