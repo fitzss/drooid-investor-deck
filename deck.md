@@ -1,335 +1,211 @@
-<!--
+---
 marp: true
 theme: default
+backgroundColor: '#f5f5f5'
 paginate: true
-header: "Drooid · 2025"
-footer: "© 2025 Drooid Technologies"
-style: |
-  section.lead {
-    text-align: center;
-    padding: 4em 2em;
-  }
-  section.lead h1 {
-    font-size: 3em;
-    margin-bottom: 0.2em;
-  }
-  section.lead h3 {
-    color: var(--secondary-color);
-    font-weight: 400;
-  }
-  section.lead p {
-    margin-top: 2em;
-    font-size: 1.4em;
-  }
--->
-
-<!-- _class: lead -->
-# Drooid – modular nanodrone swarms for impossible jobs  
-Daniel Kalu and Fitz Doud · May 2025  
 
 ---
 
-## 2  |  Problem  
-**Real-world tasks nobody can do safely or cheaply today:**  
-- Too dangerous: collapsed buildings, toxic gas sites  
-- Too remote: tight caves, flooded tunnels, underwater pipework  
-- Too complex: GPS-denied, dynamic, or unmapped geometry  
-
-Current robots are too big, brittle, and single-purpose. First responders and field scientists still rely on humans in harm's way.
-
-Swarm systems provide resilience: if one bot fails, others can complete the mission. Centralized designs don't offer that.  
+# 🛰️ Drooid  
+**Instant Drone Factories for Front‑Line Labs**  
+*Print → Snap → Hover in 24 hours*  
+*(Investor Deck · July 2025)*
 
 ---
 
-## 3  |  Solution  
-**Swarms of palm-size drones & crawlers that team up like insects**  
-- Fly · Crawl · Swim units mix & match per mission  
-- Rapid AI-to-Print pipeline → new design in days, not months  
-- Physics-checked missions = higher success, lower loss rate  
+## The Mission  
+**Title:** Rearming the Edge – Overnight  
+
+Drooid turns every unit lab into its own Blue‑compliant drone factory.  
+No shipping. No wait. Just print, snap, and fly.
+
+<sub>¹Blue = NDAA‑approved parts list</sub>
 
 ---
 
-## 4  |  Why Now  
-- Battery energy density ↑ 2× in 8 years  
-- On-device AI chips < $100  
-- Newlab Michigan Central gives us $500k of prototyping gear for $0 cap-ex  
+## The DoD’s New Bottleneck – No Local Drone Manufacturing  
 
-Timing is perfect for field-ready swarms.  
+- **Blue sUAS Block 4 RFI (Apr 2025)**  
+  “Unit‑level labs must be able to redesign and produce air‑frames themselves.”  
+  *Implication → Local CAD‑to‑print loop is mandatory.*  
+
+- **Project G.I. launch (Jun 2025)**  
+  “Ready‑now, less‑exquisite sUAS scalable in weeks.”  
+  *Speed & simplicity beat new features; frames must be field‑built.*  
+
+- **Replicator Initiative FY‑26 objective**  
+  Thousands of attritable systems per quarter via distributed production.  
+
+
+---
+## Market Misdiagnosis – More Factories ≠ Mission-Ready Drones
+
+| “Hype” Talking Point | Ground Truth from DoD Docs |
+|----------------------|----------------------------|
+| **“Re‑shore more drone factories.”** | Most plants are already on‑shore; the choke‑point is **8 – 20 week delivery** to front‑line labs (Blue sUAS RFI).
+| **“Just ship more finished airframes.”** | Blue sUAS Block 4: **Unit labs must redesign and print frames themselves** in < 24 h. |
+| **“Tariffs will fix it.”** | Cost is secondary; lead‑time and cyber vetting are the blockers (Replicator & Project G.I.). |
+
+> Central megaplants still ship by truck or sea‑lift and miss the 24‑hour edge timeline.  
+> DoD now asks for **local, cyber‑verified manufacturing inside unit labs.**
 
 ---
 
-## 5  |  Tech Stack (Core Components)  
-- **Swarm Hardware Prototypes** – lightweight, modular nano-bots  
-- **AI-to-Print Pipeline** – GPT-CAD → 3D print → bench in <72 h  
-- **Constructor-Theory Feasibility Engine** – filters impossible tasks  
-- **Hive Box** – backpack hub that offloads compute & comms  
-- **Book of Nature** – growing database of what tasks work where  
+## Job to Be Done — Inside a Unit Lab  
+
+| Situation | Task | Must‑Haves |
+|-----------|------|-----------|
+| Cracked frame after hard landing | Flight‑safe replacement before first light | No soldering, zero shipping |
+| New payload at 1700 | Integrate & launch before dawn raid | SBOM auto‑signed, no vendor queue |
+
+**24‑hour success bar:** CAD tweak → hover with SBOM auto‑signed on site.
 
 ---
 
-## 5.1 | Biomimetic Swarm Designs
-### Field-Ready Forms Inspired by Nature
+## Market Scale & Urgency — A Funded Gap Too Big to Ignore  
 
-"These designs are not theoretical art — they are reference points for real, buildable nano-robotic swarms."
+- **700 + DoD unit labs** already own SLS / MJF printers (CapEx is sunk)  
+- **Group 1–2 sUAS spend ≈ $4 B / yr**  
+  *(FY‑25 procurement + sustainment lines across Army, USMC, USAF, Navy, SOCOM)*  
+- **Replicator mandate:** thousands of attritable drones every quarter  
+- **DIU business‑case target:** shift **10 %** of frames to on‑base printing  
+- **Budget unlocked:**  
 
-- Bioinspired forms allow stealth, agility, and mission adaptability.
-- Each unit is task-specific: fly, crawl, swim.
-- Compact, field-deployable, and fit in backpack kits for real-world missions.
-- Feasible today — prototyping can begin now with COTS parts and rapid fabrication.
+> $4 B annual spend
+> × 10 % local‑print phase‑1
+> = $400 M service‑addressable wedge
+> Gap: No vendor today delivers a full, Blue‑compliant lab tool‑chain
 
----
-
-## 5.2 | Dragonfly-Class (Aerial Recon Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
-  <img src="dragonfly-prototype.jpg.jpeg" alt="Aerial reconnaissance prototype – inspired by dragonflies" style="width: 50%; min-width: 180px; max-width: 350px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
-  <div style="flex: 1;">
-    <strong>Use Cases:</strong>
-    <ul>
-      <li>Indoor or outdoor search-and-rescue</li>
-      <li>Gas leak scouting</li>
-      <li>Rooftop or tunnel ventilation analysis</li>
-      <li>Infrastructure inspection (bridges, fire zones, under-roof)</li>
-    </ul>
-    <strong>Mission Features:</strong>
-    <ul>
-      <li>Vertical Takeoff (VTOL) for tight spots</li>
-      <li>Stable hover for high-res imaging</li>
-      <li>Forward flight for perimeter sweeps</li>
-      <li>Ducted fans for safety in indoor/confined spaces</li>
-    </ul>
-    <strong>Example Mission:</strong>
-    <blockquote>Map an unstable, GPS-denied building after an earthquake to find safe entry points and gas concentrations.</blockquote>
-    <em>Wings and body are designed for maximum lift and maneuverability in cluttered environments.</em>
-  </div>
-</div>
 
 ---
 
-## 5.3 | Fish-Class (Aquatic Recon Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em;">
-  <img src="odessey.jpeg" alt="Aquatic scout concept – bio-modeled after a seal/fish" style="width: 50%; min-width: 140px; max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
-  <div style="flex: 1;">
-    <strong>Use Cases:</strong>
-    <ul>
-      <li>Flooded tunnel inspection</li>
-      <li>Urban storm drain mapping</li>
-      <li>Nuclear cooling pool or marine site monitoring</li>
-      <li>Environmental water testing</li>
-    </ul>
-    <strong>Mission Features:</strong>
-    <ul>
-      <li>Silent aquatic motion using biomimetic flippers</li>
-      <li>Sensor payloads for salinity, turbidity, pressure</li>
-      <li>Can relay data back via surface drones or swarm beacons</li>
-    </ul>
-    <strong>Example Mission:</strong>
-    <blockquote>Swim through a collapsed sewer line to detect chemical spills and structural damage.</blockquote>
-    <em>Streamlined for low drag and equipped for tight underwater navigation.</em>
-  </div>
-</div>
+## What Is a Unit Lab?
+
+| Asset on site | Example gear | Already funded |
+|---------------|--------------|----------------|
+| Industrial SLS / MJF printer | Formlabs Fuse 1, Markforged X7 | ✔ |
+| Bench CNC & re‑work | Bantam Tools, Hakko FX‑888 | ✔ |
+| 2‑4 tech soldiers | Warrant officer + enlisted makers | ✔ |
+
+*A unit lab is a “maker space in uniform.”*  
+Every brigade, ship, or depot already owns the tools above and turns out brackets, radio mounts, and antenna housings every day.
+
+<sub>² Additive-manufacturing doctrine: DoDI 5000.93 (2022); DEVCOM “ExLab” field report (2025).</sub>
+
 
 ---
 
-## 5.4 | Orb-Class (Communication/Rescue Ball Drone)
-<div style="display: flex; align-items: flex-start; gap: 2em; margin-left: -2em; margin-right: -2em; position: relative;">
-  <img src="drooid-orb.jpeg" alt="Orb-class communication drone - front view" style="width: 45%; min-width: 180px; max-width: 300px; border-radius: 12px; box-shadow: 0 2px 8px #0002; margin-right: 2em;" />
-  <div style="flex: 1; position: relative;">
-    <img src="drooid-orb2.jpeg" alt="Orb-class communication drone - side view" style="position: absolute; top: 0; right: 0; width: 120px; max-width: 30%; border-radius: 12px; box-shadow: 0 2px 8px #0002; z-index: 2;" />
-    <strong>Use Cases:</strong>
-    <ul>
-      <li>Two-way communication with trapped victims</li>
-      <li>Swarm node or repeater for underground swarms</li>
-      <li>Deployed in disaster rubble by rolling or air-drop</li>
-    </ul>
-    <strong>Mission Features:</strong>
-    <ul>
-      <li>Loudspeaker + mic for emergency teams</li>
-      <li>Flashlight beacon for visibility</li>
-      <li>Ruggedized outer shell for chaotic debris fields</li>
-      <li>150 ft voice range, hands-free operation for victims</li>
-    </ul>
-    <strong>Example Mission:</strong>
-    <blockquote>Drop into a collapsed mine shaft to establish comms with trapped workers and light the interior.</blockquote>
-    <em>Designed for maximum durability and clear audio in harsh environments.</em>
-  </div>
-</div>
+## Why Unit Labs Are the Pivot Point
+
+| Pain | Central Factory | **With Drooid stack** |
+|------|-----------------|-----------------------|
+| Replace cracked frame | 8–20 wk reorder | < 24 h print & fly |
+| Indo‑Pac resupply | 30–60 day sea‑lift | Same‑base print |
+| Cyber compliance | Manual SBOM audit | Auto‑signed SBOM |
+| Iterate design | Vendor queue | Tech edits CAD, prints overnight |
+
+**Take‑away**  
+The bottleneck is *not* more megaplants.  
+It is giving these already funded labs the software stack to print Blue‑compliant airframes on demand.  
+That stack is Drooid.
+
+
+---
+## What Unit Labs Have vs. What They Still Need  
+
+| In‑Lab Today (sunk cost) | Still Missing | Why It Matters |
+|--------------------------|--------------|----------------|
+| SLS / MJF printer        | Certified drop‑in parts kit | No CapEx hurdle |
+| Nylon powder on shelf    | One‑click cyber paperwork   | Gear already at Indo‑Pac bases |
+| 2–4 tech soldiers        | Software to go from CAD to flight in < 24 h | Air‑gapped, cleared staff—secure under cyber attack |
 
 ---
 
-## 5.5 | Why This Matters
-- Each class does one job well.
-- They operate in dangerous, unmapped, or GPS-denied zones.
-- Together, they form a swarm that can map, measure, and communicate across terrain types.
+## Proposed Solution — Software Stack Built for Unit Labs  
+
+Drooid equips the gear and people that already exist:
+
+1. **Forge CLI** — 3‑min parametric frame & signed SBOM  
+2. **Blue Rail Kit** — snap‑fit avionics, zero soldering  
+3. **TPM write‑back** — firmware + SBOM hash before first flight  
+4. **Offline by design** — air‑gapped printers already in the lab  
+5. **Licence + cryptographic binding** — every frame tied to Forge key 
+
+Design → print → hover in under a duty shift.  
+That closes the 8–20 week gap central factories can’t touch.
 
 ---
 
-## 6  |  Unique Edge  
-Most robotics platforms rely on statistical guesswork. Drooid is vertically integrated from physical limits up:
+## Prototype Roadmap  
 
-- Swarm designs, fabrication, and deployment are rapid and tightly coupled—changes in the field inform redesigns overnight.
-- Hardware, software, and operating logic co-evolve as one system, not siloed tools stitched together.
-- Constructor-theoretic feasibility checks reject doomed tasks before they waste energy, crash, or fail silently.
-- Vertical stack from mission to motor—we control task spec, part design, swarm logic, and field deployment.
-- Rapid deployment capability—we can take a new mission concept and produce a deployable swarm in under a week.
-- Every failed mission teaches the system—the Book of Nature captures feasibility data and improves task success over time.
+| Phase & Output | Proof |
+|---------------|-------|
+| Forge CLI v0 + rail + flash script | Demo clip · Git hash (data‑room link) |
+| 24 h print‑to‑hover demo (Newlab Detroit) | Live video |
+| Field KPI 10 frames / shift | SBOM + TPM hash each |
 
-This leads to: fewer crashes, faster iteration, and a clearer ROI for high-risk, high-value field deployments.
+Goal: replicate loop in pilot labs and file Blue sUAS & DIU SBIR Phase I.
 
----
-
-## 6.1 | Vertical Integration Advantage  
-"Vertical integration is an under-explored modality of technological progress." — Peter Thiel
-
-- **Drooid owns the full stack**: hardware, AI design, feasibility OS, and swarm data.  
-- **Atoms + Bits under one roof** at Newlab: design, print, test, and deploy in a single loop.  
-- **No middle layers**: Hive Box and Book of Nature keep intelligence local.  
-- **Hard to copy**: our vertically integrated pipeline is like a Tesla gigafactory for swarm robotics.
 
 ---
 
-## 6.2 | Project-First Philosophy  
-"Let it be a project before it's a company." — Sam Altman
+## Why Incumbents Can’t Pivot, but Drooid Can  
 
-- This is not a $500k pitch to finish an idea.
-- It's a $500k sprint to prove a new class of robotics is real, field-ready, and scalable.
+|                       | Big Primes | Tier‑2 Integrators | **Drooid** |
+|-----------------------|------------|--------------------|------------|
+| **Build method**      | Central factory molding | Import cheap shells | Print in‑lab |
+| **Lead‑time**         | 8‑20 weeks | 4‑12 weeks | **< 24 hours** |
+| **Compliance + $$**   | Closed SBOM, $15k‑$60k HW margins | Manual SBOM, kit margins | Auto‑SBOM, licence + rail fees |
+| **Edge autonomy**     | Re‑order every break | Still wait on shipping | Print • Snap • Fly |
 
-### Pre-seed = Proof of Feasibility
-- Fund 3-bot swarm demo + cost curve BOM
-- Validate physics, unit economics, and demand before scale
-- Spin into full product company only after technical signal is clear
+> Drooid’s software wins when units self‑manufacture.
 
-**Investors aren't buying hype. They're backing the search for scalable reality.**
+---
+## Future Impact – A Drone Factory in Every Platoon  
+
+> **2030 vision:** Any allied unit prints, certifies, and flies a mission‑ready drone the same day a new threat appears.
+
+- Thousands of micro‑factories replace today’s handful of mega‑plants  
+- Mission‑tailored drones born at the edge — zero sea‑lift, zero foreign dependency  
+- **Software licences, not hardware trucks, power allied air autonomy**
+
+---
+## From First Print to Full Swarm
+
+| **Starting Point** | **Next‑Gen Variants** | **Scaling Potential** |
+|--------------------|-----------------------|-----------------------|
+| **Initial prototype**<br>Blue‑compliant nano quad “bee” (≈ 250 g) printed overnight | **Mission‑tuned bodies**<br>• Crawlers for tunnels<br>• Swimmers for hull scans<br>• All reuse the same rail core | **Full library**<br>Edge‑printed land·sea·air library|
+
+> 🛠️ **One software stack + rail core scales across all domains.**
+
 
 ---
 
-## 7  |  Business Model  
-**Hardware + "Swarm-as-a-Service"**  
-- Starter kit (10 bots + Hive Box): $25k COGS $8k  
-- Software & maintenance: $1k / mo / swarm  
-- Beachhead = fire & rescue → expand to mining, energy, env-monitoring  
+## Market Size  
+
+| Metric | Definition | Value |
+|--------|------------|-------|
+| **TAM** | All DoD Group 1‑2 drones | ≈ $4 B / yr |
+| **SAM** | First 10 % shift to labs | ≈ $400 M / yr |
+| **SOM (3 yr)** | 250 labs × ($50 k licence + $210 k rail) | ≈ $65 M ARR |
 
 ---
 
-## 7.1 | Market Focus—Jobs We Solve
+## Offer & Funding Plan  
 
-Instead of slicing the market by customer type, Drooid targets *critical jobs that no existing tool completes well.*
+- **Raise:** $100 k SAFE at $1 M cap  
+- Use of funds: live hover demo • compliance loop • pilot letter • rail‑kit tooling
 
-| Job to Get Done                                   | Current Pain                                                         | Drooid Swarm Advantage                                                                      |
-|---------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Map a collapsed or smoke-filled structure in <5 min | Manual entry is lethal and slow; ground robots fail on rubble        | Air-hover nano-bots create a real-time 3-D map plus toxic-gas overlay in a single flight    |
-| Inspect a flooded tunnel without draining it      | Divers and ROVs are bulky, costly, risky                             | Fish-class swimmer navigates tight bends and streams HD video live                          |
-| Relay comms deep underground                      | Radio blackouts stall rescue operations                              | Orb-class relay bot forms an instant mesh network that follows the team                     |
-| Sense methane leaks across sprawling well pads    | Helicopters are expensive; fixed sensors miss moving plumes          | Dragonfly flyers sweep grids autonomously and cut per-acre cost by an order of magnitude    |
-
-**Why this matters**  
-When customers face these jobs, Drooid is the obvious hire: precise, fast, and safer than humans or legacy machines.  
-Each job anchors pricing, product specs, and go-to-market—keeping R&D and sales laser-aligned on real value.
+> “We’re not trying to out‑Skydio Skydio. It's about giving every unit the power to manufacture drones where and when they’re needed.”
 
 ---
 
-## 8 | Summer Build Plan (June–August)
+## Team & Contact  
 
-We're building Drooid's first working swarm this summer. Hardware, AI, swarm logic, and control systems—everything built and tested by end of August.
+- **Fitz Doud** – Co-Founder
+- **Daniel Kalu** – Co-Founder 
+- **Newlab @ Michigan Central** – R&D access (no equity)  
 
-### Bi-Weekly Plan (Part 1)
+**fitzdoud@gmail.com · dankalu.work@gmail.com**  
 
-| Date Range    | Focus                               | Outcome                             |
-|---------------|--------------------------------------|--------------------------------------|
-| May 27–Jun 2  | Order parts, set up Jetson + ROS     | Tools ready, test board boots        |
-| Jun 3–16      | Print first bots, build swarm base   | First bots fly, basic swarm script   |
-| Jun 17–30     | Finish 3-bot swarm, run formations   | Indoor swarm flight tested           |
-| Jul 1–14      | Build fish drone, test air-water     | Cross-medium handoff works           |
-
----
-
-## 8.1 | Summer Build Plan (June–August) (cont'd)
-
-### Bi-Weekly Plan (Part 2)
-
-| Date Range    | Focus                               | Outcome                             |
-|---------------|--------------------------------------|--------------------------------------|
-| Jul 15–28     | Run full demo, prep for outdoor      | Mission runs start to finish         |
-| Jul 29–Aug 11 | Outdoor mapping + leak detection     | Swarm detects and logs field tasks   |
-| Aug 12–25     | Final fixes, polish swarm control    | Stable, reliable swarm system        |
-| Aug 26–31     | Demo + pitch prep                    | System ready for seed raise          |
-
-**Goal:**  
-Have a 5-bot swarm system completing real-world tasks by end of August.  
-Use it to start seed fundraising and pilot outreach in September.
-
----
-
-## 9  |  Use of Funds  
-**Ask: $500k SAFE, post-money cap $6M**  
-
-| Category                       | Amount | Purpose                                                          |
-|-------------------------------|--------|------------------------------------------------------------------|
-| Builder Stipends (4 builders) | $120k  | $2.5k/month avg to live and build full-time                     |
-| Prototyping + BOM Materials   | $100k  | Covers parts for ~20 swarm bots, sensors, Hive Box rebuilds     |
-| Field Testing + Pilot Support | $60k   | Permits, insurance, facilities, field logistics                  |
-| Strategic Hires               | $40k   | Short-term CAD, AI, or swarm contractors                        |
-| Travel + Demo Missions        | $40k   | VC meetings, pilot site visits, government demos                 |
-| Legal & Ops                   | $20k   | SAFE paperwork, IP, incorporation                               |
-| Runway Buffer                 | $120k  | 5–6 month buffer in case grants delayed                        |
-
-**This is not a $500k pitch to finish an idea.**  
-**It's a $500k sprint to prove a new class of robotics is ready for the field—and ready for scale.**
-
----
-
-## 10 | Non-Dilutive Grant Applications
-
-We're actively pursuing early-stage grant funding to extend investor runway and support local prototyping in Michigan.
-
-| Grant Program                       | Status            | Amount       | Purpose or Focus Area                                           |
-|------------------------------------|-------------------|--------------|------------------------------------------------------------------|
-| **𝑓(LUX) Fellowship**              | Submitted         | $15,000      | Physical science builder grant with mentorship                   |
-| **20Fathoms Small Business Grant** | Submitted         | $4,500       | Equipment or capacity-building support for Traverse region       |
-| **AAM Activation Fund (Michigan)** | Submitted         | $175,000     | Drone infrastructure, testing, and aerial mobility applications  |
-| **NSF SBIR Phase I**               | Not yet applied   | $275,000     | Feasibility and tech validation for deep-tech startups           |
-| **AFWERX Tactical Funding**        | Not yet applied   | $75,000      | Government and dual-use applications                            |
-| **Michigan SPARK Prototype Grant** | Not yet applied   | $100,000     | Matching grant for prototyping and hardware iteration            |
-
-**Summary**  
-These grants don't define our runway, but they help us move faster with less dilution. Every dollar extends our testing capacity and accelerates outcomes for investors.
-
----
-
-## 11 | Early-Investor Value Proposition (June 1 kickoff)  
-**Your job-to-be-done as a pre-prototype investor:**
-
-- **De-risk core physics + manufacturing loop** — fund the sprint that proves 3-bot swarm can go design-to-flight in <30 days  
-- **Secure seat in complex monopoly** — vertical stack = long-term moat  
-- **Shape the platform** — direct input into BOM, vendors, and first use case  
-- **Price advantage** — $6M cap SAFE now vs $15M cap post-revenue  
-
-**Milestone your check enables by Aug 31:**  
-10-minute autonomous gas-mapping demo with 3 nano-drones in Detroit tower.
-
----
-
-## 12 | The Ask  
-Invest $500k via SAFE @ $6M cap  
-Funding gets us to swarm demo + paid pilot inside 12 months.  
-**Let's build the swarm that keeps people out of danger.**
-
----
-
-## Team & Newlab Advantage
-- Fitz Doud – robotics platform engineer, ex-open-source maintainer  
-- Daniel Kalu – CS grad from Minerva, AI/ML & swarm control  
-- Newlab @ Michigan Central – SLA/SLS printers, drone cage, motion-capture lab
-
-**Thank You**
-
-Contact:
-fitzdoud@gmail.com
-dankalu.work@gmail.com
-
-Join us in building the future of rescue robotics.
-
----
-
-## Drooid Leadership
-
-<img src="drooidleadership.jpg" alt="Drooid Leadership Team" style="display: block; margin: 2em auto 0 auto; max-width: 35%; border-radius: 16px; box-shadow: 0 4px 16px #0003;" />
+*Join us in building software‑defined drone factories for the next generation of defense.*
